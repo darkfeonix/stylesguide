@@ -1,0 +1,128 @@
+html {
+    font-family: serif;
+}
+
+body {
+    display: block;
+    margin: 0 10%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: "dm sans";
+    font-weight: bold;
+    font-size: 26px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Playfair display";
+}
+
+h2 {
+    text-align: center;
+    font-family: "roboto condensed";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.color-panel, .fonts-panel, .style-panel {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    width: 32%;
+    min-height: 100px;
+    text-transform: capitalize;
+    border-radius: 7px;
+}
+
+.fonts-h2 .style-header{
+    margin-bottom: 0px;
+}
+
+.fonts-panel {
+    font-size: small;
+    margin: auto;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 7px;
+}
+
+.vida-loca {
+    background-color: #548C1C;
+}
+
+.munsell-yellow {
+    background-color: #f2CB05;
+}
+
+.rowdy-orange {
+    background-color: #f29F05;
+}
+
+.orange-outburst {
+    background-color: #D97904;
+}
+
+.brick-orange {
+    background-color: #BF4904;
+}
+
+.playfair-display {
+    font-family: "playfair display";
+}
+
+.roboto-condensed {
+    font-family: "roboto condensed";
+}
+
+.dm-sans {
+    font-family: "DM Sans";
+}
+
+.font-name {
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+#style-h1 {
+    text-align: left;
+    font-family: "DM Sans";
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.style-h2 {
+    text-align: left;
+    font-family: 500px;
+    font-size: 18px;
+    font-family: "roboto condensed";
+}
+#style-paragraph {
+    text-align: left;
+    font-family: 400px;
+    font-size: 14px;
+    font-family: "playfair display";
+}
+
+.style-h2, #style-h1, #style-paragraph {
+    text-align: center;
+}
+
+.style-list-h1, .style-list-h2, .style-list-paragraph {
+    text-align: left;
+}
